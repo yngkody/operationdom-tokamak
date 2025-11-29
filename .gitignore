@@ -1,0 +1,10 @@
+.DS_Store
+/.build
+/Packages
+xcuserdata/
+DerivedData/
+.swiftpm/configuration/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+.netrc
+echo "swift-wasm-5.9.0-RELEASE-ubuntu22.04.tar.gz" >> .gitignore
+echo ".devcontainer/swift-wasm-5.9.0-RELEASE-ubuntu22.04.tar.gz" >> .gitignore

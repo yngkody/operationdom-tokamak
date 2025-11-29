@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:operationdom-tokamak}",
+            "name": "Debug operationdom-tokamak",
+            "target": "operationdom-tokamak",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug operationdom-tokamak"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:operationdom-tokamak}",
+            "name": "Release operationdom-tokamak",
+            "target": "operationdom-tokamak",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release operationdom-tokamak"
+        }
+    ]
+}

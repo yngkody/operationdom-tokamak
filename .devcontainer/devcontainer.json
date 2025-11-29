@@ -1,0 +1,18 @@
+{
+  "name": "Tokamak SwiftWasm Dev",
+  "image": "swift:5.9-jammy",
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {}
+  },
+  "containerEnv": {
+    "DEBIAN_FRONTEND": "noninteractive"
+  },
+  "postCreateCommand": "apt-get update && apt-get install -y curl git build-essential && bash .devcontainer/install-wasm.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "sswg.swift-lang"
+      ]
+    }
+  }
+}
